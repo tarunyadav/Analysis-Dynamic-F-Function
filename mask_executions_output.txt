@@ -1,0 +1,600 @@
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 8, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 2, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 2, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 10, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0006103515625, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 7, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00042724609375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 2, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 7, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00042724609375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 8, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 9, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00054931640625, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 7, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00042724609375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 7, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00042724609375, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 8, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 7, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00042724609375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 2, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 8, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 2, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 8, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 8, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 7, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00042724609375, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 2, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0006103515625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0006103515625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 2, 'prob_zero_sum_mask': 0.000732421875, 'prob_zero_sum_random': 0.000244140625}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000732421875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0006103515625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s

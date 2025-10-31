@@ -1,0 +1,1241 @@
+=============================================
+### DDL multiple preimages results
+
+Summary
+-------
+Total inputs: 65536
+Distinct outputs: 3956
+Number of outputs with >1 preimage: 3956
+Max preimage size for any output: 38
+
+Top 10 outputs with largest preimage sizes (output_hex : preimage_size):
+  0x0B6D : 38
+  0x0D6B : 38
+  0x16DA : 38
+  0x1AD6 : 38
+  0x2DB4 : 38
+  0x35AC : 38
+  0x42DB : 38
+  0x586B : 38
+  0x5AC3 : 38
+  0x5B68 : 38
+  0x61AD : 38
+  0x685B : 38
+  0x6B0D : 38
+  0x6B58 : 38
+  0x6D0B : 38
+  0x6DA1 : 38
+  0x85B6 : 38
+  0x86B5 : 38
+  0xA16D : 38
+  0xAC35 : 38
+  0xAD61 : 38
+  0xB0D6 : 38
+  0xB42D : 38
+  0xB586 : 38
+  0xB685 : 38
+  0xB6D0 : 38
+  0xC35A : 38
+  0xD0B6 : 38
+  0xD61A : 38
+  0xD6B0 : 38
+  0xDA16 : 38
+  0xDB42 : 38
+  0x128B : 33
+  0x148D : 33
+  0x1625 : 33
+  0x1A29 : 33
+  0x2345 : 33
+  0x2516 : 33
+  0x28B1 : 33
+  0x291A : 33
+  0x2C4A : 33
+  0x3452 : 33
+  0x4523 : 33
+  0x4589 : 33
+  0x468A : 33
+  0x48D1 : 33
+  0x4A2C : 33
+  0x5162 : 33
+  0x5234 : 33
+  0x5894 : 33
+  0x6251 : 33
+  0x68A4 : 33
+  0x8945 : 33
+  0x8A46 : 33
+  0x8B12 : 33
+  0x8D14 : 33
+  0x91A2 : 33
+  0x9458 : 33
+  0xA291 : 33
+  0xA2C4 : 33
+  0xA468 : 33
+  0xB128 : 33
+  0xC4A2 : 33
+  0xD148 : 33
+  0x06DB : 32
+  0x0DB6 : 32
+  0x12ED : 32
+  0x16E9 : 32
+  0x1B6C : 32
+  0x22DD : 32
+  0x25DA : 32
+  0x296D : 32
+  0x2D2D : 32
+  0x2DA5 : 32
+  0x2DD2 : 32
+  0x2ED1 : 32
+  0x36D8 : 32
+  0x44BB : 32
+  0x45BA : 32
+  0x48B7 : 32
+  0x4A5B : 32
+  0x4B4B : 32
+  0x4B69 : 32
+  0x4BB4 : 32
+  0x52DA : 32
+  0x5A5A : 32
+  0x5B4A : 32
+  0x5BA4 : 32
+  0x5DA2 : 32
+  0x60DB : 32
+  0x6897 : 32
+  0x694B : 32
+  0x6969 : 32
+  0x6C1B : 32
+  0x6D29 : 32
+  0x6D83 : 32
+  0x6DB0 : 32
+  0x6E91 : 32
+  0x748B : 32
+  0x7689 : 32
+  0x7777 : 32
+  0x836D : 32
+  0x8976 : 32
+  0x8B74 : 32
+  0x916E : 32
+  0x94B6 : 32
+  0x9696 : 32
+  0x96D2 : 32
+  0x9768 : 32
+  0xA25D : 32
+  0xA45B : 32
+  0xA52D : 32
+  0xA5A5 : 32
+  0xA5B4 : 32
+  0xB06D : 32
+  0xB44B : 32
+  0xB4A5 : 32
+  0xB4B4 : 32
+  0xB60D : 32
+  0xB694 : 32
+  0xB6C1 : 32
+  0xB748 : 32
+  0xBA45 : 32
+  0xBB44 : 32
+  0xBBBB : 32
+  0xC1B6 : 32
+  0xD12E : 32
+  0xD22D : 32
+  0xD296 : 32
+  0xD2D2 : 32
+  0xD836 : 32
+  0xDA25 : 32
+  0xDA52 : 32
+  0xDB06 : 32
+  0xDB60 : 32
+  0xDD22 : 32
+  0xDDDD : 32
+  0xE916 : 32
+  0xED12 : 32
+  0xEEEE : 32
+  0x1313 : 30
+  0x1919 : 30
+  0x2323 : 30
+  0x2626 : 30
+  0x3131 : 30
+  0x3232 : 30
+  0x3B7F : 30
+  0x3FB7 : 30
+  0x4646 : 30
+  0x4C4C : 30
+  0x6262 : 30
+  0x6464 : 30
+  0x6E7F : 30
+  0x6FE7 : 30
+  0x73FB : 30
+  0x76FE : 30
+  0x7F3B : 30
+  0x7F6E : 30
+  0x8989 : 30
+  0x8C8C : 30
+  0x9191 : 30
+  0x9898 : 30
+  0x9DBF : 30
+  0x9FDB : 30
+  0xB73F : 30
+  0xB7F3 : 30
+  0xB9FD : 30
+  0xBF9D : 30
+  0xC4C4 : 30
+  0xC8C8 : 30
+  0xCEDF : 30
+  0xCFED : 30
+  0xDB9F : 30
+  0xDBF9 : 30
+  0xDCFE : 30
+  0xDFCE : 30
+  0xE76F : 30
+  0xE7F6 : 30
+  0xEDCF : 30
+  0xEDFC : 30
+  0xF3B7 : 30
+  0xF6E7 : 30
+  0xF9DB : 30
+  0xFB73 : 30
+  0xFCED : 30
+  0xFDB9 : 30
+  0xFE76 : 30
+  0xFEDC : 30
+  0x1BD7 : 29
+  0x1D7B : 29
+  0x1DB7 : 29
+  0x37AE : 29
+  0x3AF6 : 29
+  0x3B6E : 29
+  0x5C6F : 29
+  0x5EC7 : 29
+  0x63AF : 29
+  0x6DC7 : 29
+  0x6E3B : 29
+  0x6F5C : 29
+
+===========================================================
+=====================================================================
+### experiments for multiple keys giving same cipher for same plain
+
+Configuration:
+ master: 0123456789ABCDEF0123
+ plaintext: 0x00000000
+ samples to try: 3
+ cap-show per round: 30
+----
+
+Baseline simulation done (round keys derived from master). Time: 0.000s
+Baseline first 8 round-keys: 0x0123, 0xCDEF, 0x89AB, 0x4567, 0x0123, 0x908C, 0x4005, 0xC2FA
+Baseline initial state (L0,R0): (0x0000, 0x0000)
+----
+
+Computing exact per-round equivalence sets (vectorized) ...
+Round 00: R=0x0000 K=0x0123 -> DDL_y=0x73AE  equiv_count=28
+  members: 0x0123, 0x0413, 0x080C, 0x4135, 0x514D, 0x561D, 0x5C39, 0x5CEC, 0x65A7, 0x7A1A, 0x7CD6, 0x8C33, 0x8CD7, 0x8FF7, 0x9422, 0xA7D7, 0xA8D5, 0xB442, 0xBF7A, 0xC515, 0xC5A6, 0xCB27, 0xCE78, 0xE21A, 0xE749, 0xE9E4, 0xFBD1, 0xFD31
+Round 01: R=0x73AE K=0xCDEF -> DDL_y=0xE44E  equiv_count=22
+  members: 0x0FAB, 0x2911, 0x361D, 0x3924, 0x54DE, 0x63D7, 0x7588, 0x75CC, 0x7E7C, 0x8006, 0x802B, 0x8815, 0xAACC, 0xB4A4, 0xCC51, 0xCDE8, 0xCDEF, 0xD172, 0xEE8F, 0xF2BA, 0xF2EF, 0xF550
+Round 02: R=0xE44E K=0x89AB -> DDL_y=0xBFD9  equiv_count=20
+  members: 0x190B, 0x2E19, 0x2E4D, 0x3B4F, 0x48E5, 0x53C8, 0x6CCF, 0x6EC6, 0x822E, 0x89AB, 0x8BB6, 0x9B3D, 0xA8B6, 0xD1E1, 0xD879, 0xE41E, 0xE448, 0xE88F, 0xE94D, 0xF556
+Round 03: R=0xCC77 K=0x4567 -> DDL_y=0xBB66  equiv_count=18
+  members: 0x01CF, 0x0ED6, 0x23A1, 0x2DA8, 0x4567, 0x53DC, 0x5C6D, 0x68ED, 0x6A3E, 0x725C, 0x95F1, 0x9784, 0x98F8, 0x9930, 0x9978, 0xB3ED, 0xB84E, 0xC3D5
+Round 04: R=0x5F28 K=0x0123 -> DDL_y=0x2B81  equiv_count=9
+  members: 0x0123, 0x15AD, 0x5909, 0x7A22, 0x7A3C, 0x7D8E, 0xD742, 0xDE6E, 0xF445
+Round 05: R=0xE7F6 K=0x908C -> DDL_y=0x1A0B  equiv_count=24
+  members: 0x1A84, 0x1BFB, 0x376F, 0x39B9, 0x4117, 0x5026, 0x5356, 0x571D, 0x59EF, 0x65FB, 0x6684, 0x7DBE, 0x8FED, 0x908C, 0x9BA5, 0xA7D1, 0xB566, 0xB567, 0xBB3A, 0xC24E, 0xF2CC, 0xFF9F, 0xFFBA, 0xFFC3
+Round 06: R=0x4523 K=0x4005 -> DDL_y=0x8282  equiv_count=16
+  members: 0x0527, 0x1032, 0x4005, 0x4163, 0x518B, 0x5476, 0x6326, 0x6DA1, 0x76BA, 0x78C4, 0xA21E, 0xBC9F, 0xC70B, 0xDC10, 0xED37, 0xF9DA
+Round 07: R=0x6574 K=0xC2FA -> DDL_y=0xC5C5  equiv_count=16
+  members: 0x0857, 0x199F, 0x1C4F, 0x4619, 0x5E0D, 0x8E08, 0x95B2, 0x99EF, 0xA384, 0xC2FA, 0xD6E3, 0xD7E1, 0xEBD3, 0xF0C6, 0xF2C7, 0xFE88
+Round 08: R=0x80E6 K=0x3571 -> DDL_y=0x638D  equiv_count=12
+  members: 0x15D8, 0x1BDE, 0x2489, 0x292D, 0x2E83, 0x346C, 0x3571, 0x7A5B, 0xA9BE, 0xB6B6, 0xCB1F, 0xEDBC
+Round 09: R=0x06F9 K=0x337A -> DDL_y=0xC059  equiv_count=24
+  members: 0x18CD, 0x1C87, 0x26F8, 0x315F, 0x337A, 0x3599, 0x4563, 0x4E7F, 0x55E6, 0x5785, 0x5A31, 0x5A69, 0x65B0, 0x6F3B, 0x766D, 0x7C49, 0xB03C, 0xB6D5, 0xC3A4, 0xC72C, 0xCCF5, 0xEC28, 0xEE4B, 0xFD9B
+Round 10: R=0x40BF K=0x587A -> DDL_y=0xE709  equiv_count=24
+  members: 0x0741, 0x0D1E, 0x125E, 0x1B46, 0x1BF7, 0x2C70, 0x2E51, 0x37BC, 0x587A, 0x6236, 0x6A31, 0x8757, 0x92AB, 0x9DDC, 0xA3F0, 0xB4FB, 0xC210, 0xC577, 0xC7A5, 0xC89C, 0xD7F6, 0xE636, 0xEDFB, 0xF837
+Round 11: R=0xE1F0 K=0xD9B5 -> DDL_y=0x5371  equiv_count=16
+  members: 0x2723, 0x4ECE, 0x4F74, 0x5117, 0x5750, 0x63C5, 0x6C92, 0x8C6C, 0x953B, 0x9B94, 0xA116, 0xB366, 0xB5D3, 0xD9B5, 0xDFAF, 0xF2B8
+Round 12: R=0x13CE K=0x0C56 -> DDL_y=0x42E8  equiv_count=12
+  members: 0x0C56, 0x1C58, 0x2949, 0x742E, 0x87D5, 0x942F, 0xA1A7, 0xA354, 0xB01A, 0xB085, 0xC7D0, 0xF1A3
+Round 13: R=0xA318 K=0x65B7 -> DDL_y=0xB975  equiv_count=16
+  members: 0x077E, 0x1191, 0x5FC5, 0x621B, 0x65B7, 0x7716, 0x8690, 0x924F, 0x948B, 0x9594, 0xA54D, 0xCED2, 0xD0A3, 0xE8FA, 0xF109, 0xFB0E
+Round 14: R=0xAABB K=0x0D73 -> DDL_y=0xE943  equiv_count=26
+  members: 0x0C55, 0x0D73, 0x1079, 0x133E, 0x1566, 0x33BF, 0x39EE, 0x522D, 0x55AE, 0x64DD, 0x6568, 0x68CA, 0x7D00, 0x7F8F, 0x8875, 0x99FB, 0x9D07, 0x9E4D, 0xBF88, 0xC077, 0xC96B, 0xD447, 0xDA36, 0xDA5A, 0xFB22, 0xFD73
+Round 15: R=0x4A5B K=0xF319 -> DDL_y=0x67FE  equiv_count=22
+  members: 0x0839, 0x192A, 0x2B1A, 0x2CE8, 0x3061, 0x33F1, 0x53EE, 0x5B87, 0x5C7D, 0x6828, 0x6E0F, 0x6E4F, 0x941B, 0x947F, 0x9668, 0xABF0, 0xDC06, 0xE6AD, 0xF0BE, 0xF319, 0xF373, 0xF766
+Round 16: R=0xCD45 K=0xED05 -> DDL_y=0xB649  equiv_count=25
+  members: 0x0EEF, 0x1B2E, 0x2D58, 0x3769, 0x4BC4, 0x552E, 0x6B13, 0x7C1A, 0x7C58, 0x8541, 0x856D, 0x8FCD, 0x98E0, 0x9C20, 0x9CE4, 0xA8A9, 0xAA85, 0xB806, 0xCC43, 0xD27D, 0xD72F, 0xDBEF, 0xE945, 0xED05, 0xEDC7
+Round 17: R=0xFC12 K=0x86F4 -> DDL_y=0x1B7D  equiv_count=16
+  members: 0x0113, 0x15DF, 0x2757, 0x2E82, 0x40B7, 0x4138, 0x481E, 0x6229, 0x7DAF, 0x86F4, 0x8794, 0x8F36, 0xC5A1, 0xCB90, 0xD07C, 0xFAC9
+Round 18: R=0xD638 K=0x452C -> DDL_y=0x63AF  equiv_count=29
+  members: 0x0242, 0x0315, 0x22F8, 0x295C, 0x2D6A, 0x3349, 0x3488, 0x452C, 0x4B47, 0x5718, 0x61B2, 0x62F8, 0x6324, 0x6C73, 0x70F3, 0x7140, 0x725D, 0x7B77, 0x82B8, 0x82C7, 0x8422, 0x8705, 0xA12A, 0xB593, 0xBE45, 0xC933, 0xD070, 0xE65B, 0xF4AF
+Round 19: R=0x9FBD K=0x33FA -> DDL_y=0xA857  equiv_count=12
+  members: 0x33FA, 0x3EB9, 0x574B, 0x6E7D, 0x791E, 0x9C08, 0xBFA8, 0xC27D, 0xC93F, 0xD01E, 0xD7D7, 0xED30
+Round 20: R=0x7E6F K=0x1877 -> DDL_y=0x69F0  equiv_count=18
+  members: 0x1078, 0x1877, 0x29C6, 0x6700, 0x6F0F, 0x7C88, 0x85A4, 0x8632, 0x8E43, 0x90F4, 0xA90D, 0xAA23, 0xCC4C, 0xD05B, 0xD131, 0xD726, 0xE782, 0xFAF0
+Round 21: R=0xF64D K=0x8D25 -> DDL_y=0x529E  equiv_count=24
+  members: 0x073F, 0x0B5D, 0x1364, 0x14DC, 0x1A67, 0x2416, 0x280F, 0x2BE5, 0x2BEF, 0x459A, 0x4F69, 0x52A4, 0x61AE, 0x62AB, 0x6508, 0x6F67, 0x7922, 0x80B9, 0x8D25, 0xADFD, 0xBC96, 0xC5C7, 0xEA41, 0xFA88
+Round 22: R=0x2CF1 K=0x3154 -> DDL_y=0x0FD2  equiv_count=20
+  members: 0x01B9, 0x0824, 0x0B50, 0x0D98, 0x1942, 0x1A0C, 0x21EB, 0x2EEA, 0x30B4, 0x3154, 0x447D, 0x54B1, 0x5874, 0x6CE8, 0x72F0, 0x78B8, 0xA952, 0xC6E4, 0xE1F2, 0xE3FC
+Round 23: R=0xF99F K=0x75DF -> DDL_y=0xDF57  equiv_count=18
+  members: 0x0690, 0x1A55, 0x1F5C, 0x42B4, 0x48CE, 0x5606, 0x580E, 0x6DDB, 0x75DF, 0x8C8A, 0x8F40, 0x94AC, 0xC70E, 0xC99F, 0xD79B, 0xDB2D, 0xE355, 0xF96F
+Round 24: R=0xF3A6 K=0x094C -> DDL_y=0x66FF  equiv_count=20
+  members: 0x002E, 0x042C, 0x094C, 0x12A5, 0x1E48, 0x34B7, 0x36EF, 0x3CE6, 0x4A1D, 0x4AB3, 0x51D9, 0x652A, 0x6BDE, 0x7226, 0x7B23, 0x8FA6, 0xCCC0, 0xD965, 0xF306, 0xF5AE
+Round 25: R=0x9F60 K=0xDAC0 -> DDL_y=0x9ACF  equiv_count=16
+  members: 0x04C0, 0x1EF7, 0x21F7, 0x2DA5, 0x38E3, 0x468F, 0x7238, 0x7F6C, 0x903C, 0x9184, 0xA841, 0xABBA, 0xB538, 0xBABC, 0xD5D3, 0xDAC0
+Round 26: R=0x6969 K=0xBFA5 -> DDL_y=0x01EF  equiv_count=28
+  members: 0x1E66, 0x2248, 0x3922, 0x442D, 0x49C0, 0x51CF, 0x5442, 0x6EE1, 0x6EEC, 0x71CE, 0x874E, 0x884C, 0x8CFE, 0x9027, 0x9110, 0x911E, 0x9387, 0x9F4C, 0xA152, 0xA852, 0xACE8, 0xADB4, 0xB442, 0xBFA5, 0xCD74, 0xDC6F, 0xDDB4, 0xFB03
+Round 27: R=0x9E8F K=0x86F1 -> DDL_y=0x842E  equiv_count=12
+  members: 0x05A9, 0x1F76, 0x24BB, 0x27CE, 0x3586, 0x40A9, 0x73CE, 0x86F1, 0x98F1, 0xD4B2, 0xED27, 0xFE76
+Round 28: R=0xED47 K=0x45B7 -> DDL_y=0x3DE0  equiv_count=28
+  members: 0x0952, 0x0A28, 0x14D3, 0x14E9, 0x1A28, 0x1BED, 0x26FD, 0x2D16, 0x301C, 0x3721, 0x3755, 0x3E2B, 0x3E4B, 0x45B7, 0x72B6, 0x7A1E, 0x7AA5, 0x8D18, 0x8F93, 0x8FA3, 0x92B6, 0x9CE7, 0xA519, 0xA740, 0xBD7F, 0xBF2C, 0xD01C, 0xD654
+Round 29: R=0xA36F K=0x32A1 -> DDL_y=0xED30  equiv_count=16
+  members: 0x32A1, 0x43C5, 0x47F4, 0x5434, 0x7290, 0x7E08, 0x8A6E, 0xA55D, 0xB938, 0xBAC9, 0xCC7F, 0xDD06, 0xEC49, 0xEFA0, 0xF0C7, 0xFE84
+Round 30: R=0x0077 K=0xC9F1 -> DDL_y=0xCF56  equiv_count=15
+  members: 0x0329, 0x21C0, 0x3E76, 0x3F8C, 0x46A8, 0x706A, 0x79F5, 0xA011, 0xBAB6, 0xBFF1, 0xC25C, 0xC9F1, 0xD541, 0xD944, 0xF569
+Round 31: R=0x6C39 K=0x87E5 -> DDL_y=0x6237  equiv_count=8
+  members: 0x0433, 0x1E49, 0x297F, 0x4B14, 0x7CBC, 0x87E5, 0x9FC7, 0xF18A
+Done. time 0.007s
+
+Rough product of sizes for first 5 rounds: 1995840
+Baseline ciphertext: 0x6C396240
+
+=== Candidate sample 1 ===
+Attempting per-round keys (K'_0 .. K'_31):
+0xB442, 0x361D, 0xE41E, 0x53DC, 0xF445, 0x1A84, 0xBC9F, 0xEBD3, 0xB6B6, 0x4E7F, 0x125E, 0xB5D3, 0xA1A7, 0x621B, 0x0D73, 0x2CE8, 0xEDC7, 0x481E, 0x6324, 0x3EB9, 0xD05B, 0x0B5D, 0xE3FC, 0x0690, 0xD965, 0x21F7, 0xCD74, 0x27CE, 0xBD7F, 0x8A6E, 0x0329, 0x4B14
+first 8 round keys: 0xB442, 0x361D, 0xE41E, 0x53DC, 0xF445, 0x1A84, 0xBC9F, 0xEBD3
+Rounds changed vs original: 31 (indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31])
+Candidate ciphertext: 0x6C396240
+==> MATCH: candidate produces same ciphertext as baseline (full 32-round match).
+
+Round-by-round states (baseline vs candidate) first 8 rounds:
+ r0: Baseline L=0000 R=73AE Kb=0x0123 -> y=0x73AE  | Candidate L=0000 R=73AE Kc=0xB442 -> y=0x73AE Same=True
+ r1: Baseline L=73AE R=E44E Kb=0xCDEF -> y=0xE44E  | Candidate L=73AE R=E44E Kc=0x361D -> y=0xE44E Same=True
+ r2: Baseline L=E44E R=CC77 Kb=0x89AB -> y=0xBFD9  | Candidate L=E44E R=CC77 Kc=0xE41E -> y=0xBFD9 Same=True
+ r3: Baseline L=CC77 R=5F28 Kb=0x4567 -> y=0xBB66  | Candidate L=CC77 R=5F28 Kc=0x53DC -> y=0xBB66 Same=True
+ r4: Baseline L=5F28 R=E7F6 Kb=0x0123 -> y=0x2B81  | Candidate L=5F28 R=E7F6 Kc=0xF445 -> y=0x2B81 Same=True
+ r5: Baseline L=E7F6 R=4523 Kb=0x908C -> y=0x1A0B  | Candidate L=E7F6 R=4523 Kc=0x1A84 -> y=0x1A0B Same=True
+ r6: Baseline L=4523 R=6574 Kb=0x4005 -> y=0x8282  | Candidate L=4523 R=6574 Kc=0xBC9F -> y=0x8282 Same=True
+ r7: Baseline L=6574 R=80E6 Kb=0xC2FA -> y=0xC5C5  | Candidate L=6574 R=80E6 Kc=0xEBD3 -> y=0xC5C5 Same=True
+ r8: Baseline L=80E6 R=06F9 Kb=0x3571 -> y=0x638D  | Candidate L=80E6 R=06F9 Kc=0xB6B6 -> y=0x638D Same=True
+ r9: Baseline L=06F9 R=40BF Kb=0x337A -> y=0xC059  | Candidate L=06F9 R=40BF Kc=0x4E7F -> y=0xC059 Same=True
+ r10: Baseline L=40BF R=E1F0 Kb=0x587A -> y=0xE709  | Candidate L=40BF R=E1F0 Kc=0x125E -> y=0xE709 Same=True
+ r11: Baseline L=E1F0 R=13CE Kb=0xD9B5 -> y=0x5371  | Candidate L=E1F0 R=13CE Kc=0xB5D3 -> y=0x5371 Same=True
+ r12: Baseline L=13CE R=A318 Kb=0x0C56 -> y=0x42E8  | Candidate L=13CE R=A318 Kc=0xA1A7 -> y=0x42E8 Same=True
+ r13: Baseline L=A318 R=AABB Kb=0x65B7 -> y=0xB975  | Candidate L=A318 R=AABB Kc=0x621B -> y=0xB975 Same=True
+ r14: Baseline L=AABB R=4A5B Kb=0x0D73 -> y=0xE943  | Candidate L=AABB R=4A5B Kc=0x0D73 -> y=0xE943 Same=True
+ r15: Baseline L=4A5B R=CD45 Kb=0xF319 -> y=0x67FE  | Candidate L=4A5B R=CD45 Kc=0x2CE8 -> y=0x67FE Same=True
+ r16: Baseline L=CD45 R=FC12 Kb=0xED05 -> y=0xB649  | Candidate L=CD45 R=FC12 Kc=0xEDC7 -> y=0xB649 Same=True
+ r17: Baseline L=FC12 R=D638 Kb=0x86F4 -> y=0x1B7D  | Candidate L=FC12 R=D638 Kc=0x481E -> y=0x1B7D Same=True
+ r18: Baseline L=D638 R=9FBD Kb=0x452C -> y=0x63AF  | Candidate L=D638 R=9FBD Kc=0x6324 -> y=0x63AF Same=True
+ r19: Baseline L=9FBD R=7E6F Kb=0x33FA -> y=0xA857  | Candidate L=9FBD R=7E6F Kc=0x3EB9 -> y=0xA857 Same=True
+ r20: Baseline L=7E6F R=F64D Kb=0x1877 -> y=0x69F0  | Candidate L=7E6F R=F64D Kc=0xD05B -> y=0x69F0 Same=True
+ r21: Baseline L=F64D R=2CF1 Kb=0x8D25 -> y=0x529E  | Candidate L=F64D R=2CF1 Kc=0x0B5D -> y=0x529E Same=True
+ r22: Baseline L=2CF1 R=F99F Kb=0x3154 -> y=0x0FD2  | Candidate L=2CF1 R=F99F Kc=0xE3FC -> y=0x0FD2 Same=True
+ r23: Baseline L=F99F R=F3A6 Kb=0x75DF -> y=0xDF57  | Candidate L=F99F R=F3A6 Kc=0x0690 -> y=0xDF57 Same=True
+ r24: Baseline L=F3A6 R=9F60 Kb=0x094C -> y=0x66FF  | Candidate L=F3A6 R=9F60 Kc=0xD965 -> y=0x66FF Same=True
+ r25: Baseline L=9F60 R=6969 Kb=0xDAC0 -> y=0x9ACF  | Candidate L=9F60 R=6969 Kc=0x21F7 -> y=0x9ACF Same=True
+ r26: Baseline L=6969 R=9E8F Kb=0xBFA5 -> y=0x01EF  | Candidate L=6969 R=9E8F Kc=0xCD74 -> y=0x01EF Same=True
+ r27: Baseline L=9E8F R=ED47 Kb=0x86F1 -> y=0x842E  | Candidate L=9E8F R=ED47 Kc=0x27CE -> y=0x842E Same=True
+ r28: Baseline L=ED47 R=A36F Kb=0x45B7 -> y=0x3DE0  | Candidate L=ED47 R=A36F Kc=0xBD7F -> y=0x3DE0 Same=True
+ r29: Baseline L=A36F R=0077 Kb=0x32A1 -> y=0xED30  | Candidate L=A36F R=0077 Kc=0x8A6E -> y=0xED30 Same=True
+ r30: Baseline L=0077 R=6C39 Kb=0xC9F1 -> y=0xCF56  | Candidate L=0077 R=6C39 Kc=0x0329 -> y=0xCF56 Same=True
+ r31: Baseline L=6C39 R=6240 Kb=0x87E5 -> y=0x6237  | Candidate L=6C39 R=6240 Kc=0x4B14 -> y=0x6237 Same=True
+
+
+=== Candidate sample 2 ===
+Attempting per-round keys (K'_0 .. K'_31):
+0xE9E4, 0xF2EF, 0xA8B6, 0x9978, 0x7D8E, 0xB566, 0x0527, 0x4619, 0xA9BE, 0x4563, 0x2E51, 0x5117, 0x742E, 0x1191, 0x133E, 0x3061, 0xB806, 0x8F36, 0x22F8, 0xD01E, 0xD131, 0x2BEF, 0x72F0, 0x5606, 0x51D9, 0xD5D3, 0x9F4C, 0x86F1, 0x3E4B, 0x47F4, 0xD541, 0x9FC7
+first 8 round keys: 0xE9E4, 0xF2EF, 0xA8B6, 0x9978, 0x7D8E, 0xB566, 0x0527, 0x4619
+Rounds changed vs original: 31 (indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31])
+Candidate ciphertext: 0x6C396240
+==> MATCH: candidate produces same ciphertext as baseline (full 32-round match).
+
+Round-by-round states (baseline vs candidate) first 8 rounds:
+ r0: Baseline L=0000 R=73AE Kb=0x0123 -> y=0x73AE  | Candidate L=0000 R=73AE Kc=0xE9E4 -> y=0x73AE Same=True
+ r1: Baseline L=73AE R=E44E Kb=0xCDEF -> y=0xE44E  | Candidate L=73AE R=E44E Kc=0xF2EF -> y=0xE44E Same=True
+ r2: Baseline L=E44E R=CC77 Kb=0x89AB -> y=0xBFD9  | Candidate L=E44E R=CC77 Kc=0xA8B6 -> y=0xBFD9 Same=True
+ r3: Baseline L=CC77 R=5F28 Kb=0x4567 -> y=0xBB66  | Candidate L=CC77 R=5F28 Kc=0x9978 -> y=0xBB66 Same=True
+ r4: Baseline L=5F28 R=E7F6 Kb=0x0123 -> y=0x2B81  | Candidate L=5F28 R=E7F6 Kc=0x7D8E -> y=0x2B81 Same=True
+ r5: Baseline L=E7F6 R=4523 Kb=0x908C -> y=0x1A0B  | Candidate L=E7F6 R=4523 Kc=0xB566 -> y=0x1A0B Same=True
+ r6: Baseline L=4523 R=6574 Kb=0x4005 -> y=0x8282  | Candidate L=4523 R=6574 Kc=0x0527 -> y=0x8282 Same=True
+ r7: Baseline L=6574 R=80E6 Kb=0xC2FA -> y=0xC5C5  | Candidate L=6574 R=80E6 Kc=0x4619 -> y=0xC5C5 Same=True
+ r8: Baseline L=80E6 R=06F9 Kb=0x3571 -> y=0x638D  | Candidate L=80E6 R=06F9 Kc=0xA9BE -> y=0x638D Same=True
+ r9: Baseline L=06F9 R=40BF Kb=0x337A -> y=0xC059  | Candidate L=06F9 R=40BF Kc=0x4563 -> y=0xC059 Same=True
+ r10: Baseline L=40BF R=E1F0 Kb=0x587A -> y=0xE709  | Candidate L=40BF R=E1F0 Kc=0x2E51 -> y=0xE709 Same=True
+ r11: Baseline L=E1F0 R=13CE Kb=0xD9B5 -> y=0x5371  | Candidate L=E1F0 R=13CE Kc=0x5117 -> y=0x5371 Same=True
+ r12: Baseline L=13CE R=A318 Kb=0x0C56 -> y=0x42E8  | Candidate L=13CE R=A318 Kc=0x742E -> y=0x42E8 Same=True
+ r13: Baseline L=A318 R=AABB Kb=0x65B7 -> y=0xB975  | Candidate L=A318 R=AABB Kc=0x1191 -> y=0xB975 Same=True
+ r14: Baseline L=AABB R=4A5B Kb=0x0D73 -> y=0xE943  | Candidate L=AABB R=4A5B Kc=0x133E -> y=0xE943 Same=True
+ r15: Baseline L=4A5B R=CD45 Kb=0xF319 -> y=0x67FE  | Candidate L=4A5B R=CD45 Kc=0x3061 -> y=0x67FE Same=True
+ r16: Baseline L=CD45 R=FC12 Kb=0xED05 -> y=0xB649  | Candidate L=CD45 R=FC12 Kc=0xB806 -> y=0xB649 Same=True
+ r17: Baseline L=FC12 R=D638 Kb=0x86F4 -> y=0x1B7D  | Candidate L=FC12 R=D638 Kc=0x8F36 -> y=0x1B7D Same=True
+ r18: Baseline L=D638 R=9FBD Kb=0x452C -> y=0x63AF  | Candidate L=D638 R=9FBD Kc=0x22F8 -> y=0x63AF Same=True
+ r19: Baseline L=9FBD R=7E6F Kb=0x33FA -> y=0xA857  | Candidate L=9FBD R=7E6F Kc=0xD01E -> y=0xA857 Same=True
+ r20: Baseline L=7E6F R=F64D Kb=0x1877 -> y=0x69F0  | Candidate L=7E6F R=F64D Kc=0xD131 -> y=0x69F0 Same=True
+ r21: Baseline L=F64D R=2CF1 Kb=0x8D25 -> y=0x529E  | Candidate L=F64D R=2CF1 Kc=0x2BEF -> y=0x529E Same=True
+ r22: Baseline L=2CF1 R=F99F Kb=0x3154 -> y=0x0FD2  | Candidate L=2CF1 R=F99F Kc=0x72F0 -> y=0x0FD2 Same=True
+ r23: Baseline L=F99F R=F3A6 Kb=0x75DF -> y=0xDF57  | Candidate L=F99F R=F3A6 Kc=0x5606 -> y=0xDF57 Same=True
+ r24: Baseline L=F3A6 R=9F60 Kb=0x094C -> y=0x66FF  | Candidate L=F3A6 R=9F60 Kc=0x51D9 -> y=0x66FF Same=True
+ r25: Baseline L=9F60 R=6969 Kb=0xDAC0 -> y=0x9ACF  | Candidate L=9F60 R=6969 Kc=0xD5D3 -> y=0x9ACF Same=True
+ r26: Baseline L=6969 R=9E8F Kb=0xBFA5 -> y=0x01EF  | Candidate L=6969 R=9E8F Kc=0x9F4C -> y=0x01EF Same=True
+ r27: Baseline L=9E8F R=ED47 Kb=0x86F1 -> y=0x842E  | Candidate L=9E8F R=ED47 Kc=0x86F1 -> y=0x842E Same=True
+ r28: Baseline L=ED47 R=A36F Kb=0x45B7 -> y=0x3DE0  | Candidate L=ED47 R=A36F Kc=0x3E4B -> y=0x3DE0 Same=True
+ r29: Baseline L=A36F R=0077 Kb=0x32A1 -> y=0xED30  | Candidate L=A36F R=0077 Kc=0x47F4 -> y=0xED30 Same=True
+ r30: Baseline L=0077 R=6C39 Kb=0xC9F1 -> y=0xCF56  | Candidate L=0077 R=6C39 Kc=0xD541 -> y=0xCF56 Same=True
+ r31: Baseline L=6C39 R=6240 Kb=0x87E5 -> y=0x6237  | Candidate L=6C39 R=6240 Kc=0x9FC7 -> y=0x6237 Same=True
+
+
+=== Candidate sample 3 ===
+Attempting per-round keys (K'_0 .. K'_31):
+0xC5A6, 0xEE8F, 0x190B, 0x95F1, 0x7A22, 0x7DBE, 0x6DA1, 0xC2FA, 0x2489, 0x55E6, 0x6A31, 0x9B94, 0x942F, 0x5FC5, 0x9E4D, 0x3061, 0xDBEF, 0x7DAF, 0x7B77, 0x791E, 0x6F0F, 0x073F, 0x54B1, 0xF96F, 0xF306, 0x38E3, 0x9387, 0x73CE, 0xD01C, 0xCC7F, 0xBAB6, 0x4B14
+first 8 round keys: 0xC5A6, 0xEE8F, 0x190B, 0x95F1, 0x7A22, 0x7DBE, 0x6DA1, 0xC2FA
+Rounds changed vs original: 31 (indices: [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31])
+Candidate ciphertext: 0x6C396240
+==> MATCH: candidate produces same ciphertext as baseline (full 32-round match).
+
+Round-by-round states (baseline vs candidate) first 8 rounds:
+ r0: Baseline L=0000 R=73AE Kb=0x0123 -> y=0x73AE  | Candidate L=0000 R=73AE Kc=0xC5A6 -> y=0x73AE Same=True
+ r1: Baseline L=73AE R=E44E Kb=0xCDEF -> y=0xE44E  | Candidate L=73AE R=E44E Kc=0xEE8F -> y=0xE44E Same=True
+ r2: Baseline L=E44E R=CC77 Kb=0x89AB -> y=0xBFD9  | Candidate L=E44E R=CC77 Kc=0x190B -> y=0xBFD9 Same=True
+ r3: Baseline L=CC77 R=5F28 Kb=0x4567 -> y=0xBB66  | Candidate L=CC77 R=5F28 Kc=0x95F1 -> y=0xBB66 Same=True
+ r4: Baseline L=5F28 R=E7F6 Kb=0x0123 -> y=0x2B81  | Candidate L=5F28 R=E7F6 Kc=0x7A22 -> y=0x2B81 Same=True
+ r5: Baseline L=E7F6 R=4523 Kb=0x908C -> y=0x1A0B  | Candidate L=E7F6 R=4523 Kc=0x7DBE -> y=0x1A0B Same=True
+ r6: Baseline L=4523 R=6574 Kb=0x4005 -> y=0x8282  | Candidate L=4523 R=6574 Kc=0x6DA1 -> y=0x8282 Same=True
+ r7: Baseline L=6574 R=80E6 Kb=0xC2FA -> y=0xC5C5  | Candidate L=6574 R=80E6 Kc=0xC2FA -> y=0xC5C5 Same=True
+ r8: Baseline L=80E6 R=06F9 Kb=0x3571 -> y=0x638D  | Candidate L=80E6 R=06F9 Kc=0x2489 -> y=0x638D Same=True
+ r9: Baseline L=06F9 R=40BF Kb=0x337A -> y=0xC059  | Candidate L=06F9 R=40BF Kc=0x55E6 -> y=0xC059 Same=True
+ r10: Baseline L=40BF R=E1F0 Kb=0x587A -> y=0xE709  | Candidate L=40BF R=E1F0 Kc=0x6A31 -> y=0xE709 Same=True
+ r11: Baseline L=E1F0 R=13CE Kb=0xD9B5 -> y=0x5371  | Candidate L=E1F0 R=13CE Kc=0x9B94 -> y=0x5371 Same=True
+ r12: Baseline L=13CE R=A318 Kb=0x0C56 -> y=0x42E8  | Candidate L=13CE R=A318 Kc=0x942F -> y=0x42E8 Same=True
+ r13: Baseline L=A318 R=AABB Kb=0x65B7 -> y=0xB975  | Candidate L=A318 R=AABB Kc=0x5FC5 -> y=0xB975 Same=True
+ r14: Baseline L=AABB R=4A5B Kb=0x0D73 -> y=0xE943  | Candidate L=AABB R=4A5B Kc=0x9E4D -> y=0xE943 Same=True
+ r15: Baseline L=4A5B R=CD45 Kb=0xF319 -> y=0x67FE  | Candidate L=4A5B R=CD45 Kc=0x3061 -> y=0x67FE Same=True
+ r16: Baseline L=CD45 R=FC12 Kb=0xED05 -> y=0xB649  | Candidate L=CD45 R=FC12 Kc=0xDBEF -> y=0xB649 Same=True
+ r17: Baseline L=FC12 R=D638 Kb=0x86F4 -> y=0x1B7D  | Candidate L=FC12 R=D638 Kc=0x7DAF -> y=0x1B7D Same=True
+ r18: Baseline L=D638 R=9FBD Kb=0x452C -> y=0x63AF  | Candidate L=D638 R=9FBD Kc=0x7B77 -> y=0x63AF Same=True
+ r19: Baseline L=9FBD R=7E6F Kb=0x33FA -> y=0xA857  | Candidate L=9FBD R=7E6F Kc=0x791E -> y=0xA857 Same=True
+ r20: Baseline L=7E6F R=F64D Kb=0x1877 -> y=0x69F0  | Candidate L=7E6F R=F64D Kc=0x6F0F -> y=0x69F0 Same=True
+ r21: Baseline L=F64D R=2CF1 Kb=0x8D25 -> y=0x529E  | Candidate L=F64D R=2CF1 Kc=0x073F -> y=0x529E Same=True
+ r22: Baseline L=2CF1 R=F99F Kb=0x3154 -> y=0x0FD2  | Candidate L=2CF1 R=F99F Kc=0x54B1 -> y=0x0FD2 Same=True
+ r23: Baseline L=F99F R=F3A6 Kb=0x75DF -> y=0xDF57  | Candidate L=F99F R=F3A6 Kc=0xF96F -> y=0xDF57 Same=True
+ r24: Baseline L=F3A6 R=9F60 Kb=0x094C -> y=0x66FF  | Candidate L=F3A6 R=9F60 Kc=0xF306 -> y=0x66FF Same=True
+ r25: Baseline L=9F60 R=6969 Kb=0xDAC0 -> y=0x9ACF  | Candidate L=9F60 R=6969 Kc=0x38E3 -> y=0x9ACF Same=True
+ r26: Baseline L=6969 R=9E8F Kb=0xBFA5 -> y=0x01EF  | Candidate L=6969 R=9E8F Kc=0x9387 -> y=0x01EF Same=True
+ r27: Baseline L=9E8F R=ED47 Kb=0x86F1 -> y=0x842E  | Candidate L=9E8F R=ED47 Kc=0x73CE -> y=0x842E Same=True
+ r28: Baseline L=ED47 R=A36F Kb=0x45B7 -> y=0x3DE0  | Candidate L=ED47 R=A36F Kc=0xD01C -> y=0x3DE0 Same=True
+ r29: Baseline L=A36F R=0077 Kb=0x32A1 -> y=0xED30  | Candidate L=A36F R=0077 Kc=0xCC7F -> y=0xED30 Same=True
+ r30: Baseline L=0077 R=6C39 Kb=0xC9F1 -> y=0xCF56  | Candidate L=0077 R=6C39 Kc=0xBAB6 -> y=0xCF56 Same=True
+ r31: Baseline L=6C39 R=6240 Kb=0x87E5 -> y=0x6237  | Candidate L=6C39 R=6240 Kc=0x4B14 -> y=0x6237 Same=True
+
+
+All samples processed. Done.
+==================================================================
+
+### experiments  to find mask by weight of mask 2 --- evrey run will give differnet count for same mask as fixed data and key both are random in every experiment
+Testing 136 masks; trials=16384 batch=1024 rounds=32
+Using 32 round-keys
+
+Top masks by prob_zero_sum:
+mask=0x0802 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000610 | count_zero_sum=10
+mask=0x0500 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000549 | count_zero_sum=9
+mask=0x0810 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000488 | count_zero_sum=8
+mask=0x0440 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000488 | count_zero_sum=8
+mask=0x0005 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000427 | count_zero_sum=7
+mask=0x1010 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000427 | count_zero_sum=7
+mask=0x0600 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000427 | count_zero_sum=7
+mask=0x0102 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000366 | count_zero_sum=6
+mask=0x0084 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000366 | count_zero_sum=6
+mask=0x2004 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000366 | count_zero_sum=6
+mask=0x0048 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000366 | count_zero_sum=6
+mask=0x0208 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000366 | count_zero_sum=6
+mask=0x1008 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000366 | count_zero_sum=6
+mask=0x0120 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000366 | count_zero_sum=6
+mask=0x0140 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000366 | count_zero_sum=6
+mask=0x4100 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000366 | count_zero_sum=6
+mask=0x4400 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000366 | count_zero_sum=6
+mask=0x0003 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000305 | count_zero_sum=5
+mask=0x0021 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000305 | count_zero_sum=5
+mask=0x0201 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000305 | count_zero_sum=5
+mask=0x2001 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000305 | count_zero_sum=5
+mask=0x0088 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000305 | count_zero_sum=5
+mask=0x0108 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000305 | count_zero_sum=5
+mask=0x0030 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000305 | count_zero_sum=5
+mask=0x2010 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000305 | count_zero_sum=5
+mask=0x0220 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000305 | count_zero_sum=5
+mask=0x0900 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000305 | count_zero_sum=5
+mask=0x4800 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000305 | count_zero_sum=5
+mask=0x8800 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000305 | count_zero_sum=5
+mask=0x0081 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x0101 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x0401 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x4001 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x0006 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x000A | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x0402 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x000C | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x0014 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x0044 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x0804 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x0018 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x4008 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x4010 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x8010 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x0820 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x1020 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x2020 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x0240 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x0840 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x0180 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x1080 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x1100 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x0A00 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x1200 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x5000 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x9000 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0xA000 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0xC000 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x0011 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x8001 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x0012 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x0022 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x0042 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x0082 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x0404 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x1004 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x0028 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x8008 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x0050 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x0090 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x0210 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x00A0 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x8020 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x00C0 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x1040 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x2040 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x4040 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x8040 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x8080 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x0300 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x2100 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x8100 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x1400 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x8400 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x6000 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x1001 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=2
+mask=0x0202 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=2
+mask=0x2002 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=2
+mask=0x8002 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=2
+mask=0x0104 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=2
+mask=0x0204 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=2
+mask=0x8004 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=2
+mask=0x0808 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=2
+mask=0x0110 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=2
+mask=0x4020 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=2
+mask=0x0280 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=2
+mask=0x0480 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=2
+mask=0x0880 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=2
+mask=0x4080 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=2
+mask=0x0C00 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=2
+mask=0x2400 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=2
+mask=0x2800 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=2
+mask=0x0009 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000061 | count_zero_sum=1
+mask=0x0041 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000061 | count_zero_sum=1
+mask=0x0801 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000061 | count_zero_sum=1
+mask=0x1002 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000061 | count_zero_sum=1
+mask=0x4002 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000061 | count_zero_sum=1
+mask=0x0024 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000061 | count_zero_sum=1
+mask=0x4004 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000061 | count_zero_sum=1
+mask=0x2008 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000061 | count_zero_sum=1
+mask=0x0410 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000061 | count_zero_sum=1
+mask=0x0060 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000061 | count_zero_sum=1
+mask=0x0420 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000061 | count_zero_sum=1
+mask=0x2080 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000061 | count_zero_sum=1
+mask=0x2200 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000061 | count_zero_sum=1
+mask=0x4200 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000061 | count_zero_sum=1
+mask=0x8200 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000061 | count_zero_sum=1
+mask=0x1800 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000061 | count_zero_sum=1
+mask=0x3000 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000061 | count_zero_sum=1
+mask=0x0001 | mask_size= 1 | Trials=16384 | Total Data=32768 | prob_zero_sum=0.000000 | count_zero_sum=0
+mask=0x0002 | mask_size= 1 | Trials=16384 | Total Data=32768 | prob_zero_sum=0.000000 | count_zero_sum=0
+mask=0x0004 | mask_size= 1 | Trials=16384 | Total Data=32768 | prob_zero_sum=0.000000 | count_zero_sum=0
+mask=0x0008 | mask_size= 1 | Trials=16384 | Total Data=32768 | prob_zero_sum=0.000000 | count_zero_sum=0
+mask=0x0010 | mask_size= 1 | Trials=16384 | Total Data=32768 | prob_zero_sum=0.000000 | count_zero_sum=0
+mask=0x0020 | mask_size= 1 | Trials=16384 | Total Data=32768 | prob_zero_sum=0.000000 | count_zero_sum=0
+mask=0x0040 | mask_size= 1 | Trials=16384 | Total Data=32768 | prob_zero_sum=0.000000 | count_zero_sum=0
+mask=0x0080 | mask_size= 1 | Trials=16384 | Total Data=32768 | prob_zero_sum=0.000000 | count_zero_sum=0
+mask=0x0100 | mask_size= 1 | Trials=16384 | Total Data=32768 | prob_zero_sum=0.000000 | count_zero_sum=0
+mask=0x0200 | mask_size= 1 | Trials=16384 | Total Data=32768 | prob_zero_sum=0.000000 | count_zero_sum=0
+mask=0x0400 | mask_size= 1 | Trials=16384 | Total Data=32768 | prob_zero_sum=0.000000 | count_zero_sum=0
+mask=0x0800 | mask_size= 1 | Trials=16384 | Total Data=32768 | prob_zero_sum=0.000000 | count_zero_sum=0
+mask=0x1000 | mask_size= 1 | Trials=16384 | Total Data=32768 | prob_zero_sum=0.000000 | count_zero_sum=0
+mask=0x2000 | mask_size= 1 | Trials=16384 | Total Data=32768 | prob_zero_sum=0.000000 | count_zero_sum=0
+mask=0x4000 | mask_size= 1 | Trials=16384 | Total Data=32768 | prob_zero_sum=0.000000 | count_zero_sum=0
+mask=0x8000 | mask_size= 1 | Trials=16384 | Total Data=32768 | prob_zero_sum=0.000000 | count_zero_sum=0
+mask=0x0408 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000000 | count_zero_sum=0
+
+
+
+
+### sliding mask - size 2 ; each run give different count of same as key and fixed data is randomly geenerated
+
+Testing 15 masks; trials=16384 batch=1024 rounds=32
+Using 32 round-keys
+
+Top masks by prob_zero_sum:
+mask=0x0060 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000488 | count_zero_sum=8
+mask=0x0180 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000488 | count_zero_sum=8
+mask=0x3000 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000427 | count_zero_sum=7
+mask=0x0003 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000366 | count_zero_sum=6
+mask=0x0600 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000305 | count_zero_sum=5
+mask=0x1800 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000305 | count_zero_sum=5
+mask=0x6000 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000305 | count_zero_sum=5
+mask=0x000C | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x00C0 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x0300 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0xC000 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=4
+mask=0x0006 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x0018 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x0030 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+mask=0x0C00 | mask_size= 2 | Trials=16384 | Total Data=65536 | prob_zero_sum=0.000183 | count_zero_sum=3
+
+
+### sliding mask - size 3 ; each run give different count of same as key and fixed data is randomly geenerated
+
+Testing 14 masks; trials=8192 batch=1024 rounds=32
+Using 32 round-keys
+
+Top masks by prob_zero_sum:
+mask=0x0380 | mask_size= 3 | Trials=8192 | Total Data=65536 | prob_zero_sum=0.000610 | count_zero_sum=5
+mask=0x00E0 | mask_size= 3 | Trials=8192 | Total Data=65536 | prob_zero_sum=0.000488 | count_zero_sum=4
+mask=0x7000 | mask_size= 3 | Trials=8192 | Total Data=65536 | prob_zero_sum=0.000488 | count_zero_sum=4
+mask=0x0700 | mask_size= 3 | Trials=8192 | Total Data=65536 | prob_zero_sum=0.000366 | count_zero_sum=3
+mask=0x0E00 | mask_size= 3 | Trials=8192 | Total Data=65536 | prob_zero_sum=0.000366 | count_zero_sum=3
+mask=0x0007 | mask_size= 3 | Trials=8192 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=2
+mask=0x000E | mask_size= 3 | Trials=8192 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=2
+mask=0x0070 | mask_size= 3 | Trials=8192 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=2
+mask=0x1C00 | mask_size= 3 | Trials=8192 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=2
+mask=0xE000 | mask_size= 3 | Trials=8192 | Total Data=65536 | prob_zero_sum=0.000244 | count_zero_sum=2
+mask=0x001C | mask_size= 3 | Trials=8192 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=1
+mask=0x0038 | mask_size= 3 | Trials=8192 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=1
+mask=0x01C0 | mask_size= 3 | Trials=8192 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=1
+mask=0x3800 | mask_size= 3 | Trials=8192 | Total Data=65536 | prob_zero_sum=0.000122 | count_zero_sum=1
+
+
+======================================================================
+
+### experiments for 32 round distinguisher 
+
+1 . for i in {1..100}; do python slim_mask_test.py --mask 0x1001 --master-key-hex random --trials 16384 --batch-size 1024 --rounds 32; done
+
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 8, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 2, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 2, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 10, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0006103515625, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 7, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00042724609375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 2, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 7, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00042724609375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 8, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 9, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00054931640625, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 4097, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+
+
+2. for i in {1..100}; do python slim_mask_test.py --mask 0x0003 --master-key-hex random --trials 16384 --batch-size 1024 --rounds 32; done
+
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 7, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00042724609375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 7, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00042724609375, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 8, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 7, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00042724609375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 2, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 8, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 2, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 8, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 8, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 6.103515625e-05, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 7, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.00042724609375, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 2, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 6.103515625e-05}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00030517578125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 3, 'mask_size': 2, 'trials': 16384, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00018310546875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+
+
+3. for i in {1..100}; do python slim_mask_test.py --mask 0x0007 --master-key-hex random --trials 8192 --batch-size 1024 --rounds 32; done
+
+
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0006103515625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0006103515625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 2, 'prob_zero_sum_mask': 0.000732421875, 'prob_zero_sum_random': 0.000244140625}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 6, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000732421875, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 0, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 1, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0001220703125}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 5, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0006103515625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 2, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.000244140625, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 4, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.00048828125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 3, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0003662109375, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+Result: {'mask': 7, 'mask_size': 3, 'trials': 8192, 'total data': 65536, 'zero_sum_count_mask': 1, 'zero_sum_count_random': 0, 'prob_zero_sum_mask': 0.0001220703125, 'prob_zero_sum_random': 0.0}
+Elapsed: 0.03 s
+
+
+
+
+
+
